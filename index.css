@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Koulen", serif;
+}
+body {
+  background-color: black;
+}
+header {
+  padding: 10px 4%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  font-size: 80px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.logo-div {
+  width: 30%;
+}
+ul {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+}
+li {
+  padding: 10px 25px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  font-size: 30px;
+}
+ul li a:hover {
+  background-color: white;
+  padding: 15px;
+  color: black;
+  border-radius: 20px;
+}
+.bouton-me-surprendre {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bouton {
+  background-color: black;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 30px rgb(98, 98, 98);
+  cursor: pointer;
+  transition: 0.5s;
+  color: white;
+  font-size: 30px;
+}
+.bouton:hover {
+  padding: 10px 30px;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 4px 4px 30px rgb(100, 100, 101);
+  background-color: white;
+  color: black;
+}
+section {
+  padding: 80px 4%;
+}
+h1 {
+  padding: 50px;
+  color: white;
+  width: 100%;
+  border: 4px solid white;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  border-radius: 30px;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  padding: 50px 4%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.slides {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  background: #060606;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+.slide {
+  width: 300px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.slide:hover {
+  transform: scale(1.1);
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+.slide h3 {
+  margin: 10px 0;
+  color: white;
+}
+.chap-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.logo-div .logo a {
+  text-decoration: none;
+  color: white;
+}
+.footer {
+  padding: 10px 4%;
+
+  width: 100%;
+}
+.footer {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
