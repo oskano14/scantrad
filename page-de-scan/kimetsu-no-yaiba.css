@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Koulen", serif;
+}
+body {
+  background-color: black;
+}
+header {
+  padding: 10px 4%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+}
+
+.logo {
+  font-size: 80px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.logo-div {
+  width: 30%;
+}
+ul {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+}
+li {
+  padding: 10px 25px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  font-size: 30px;
+}
+ul li a:hover {
+  background-color: white;
+  padding: 15px;
+  color: black;
+  border-radius: 20px;
+}
+.bouton-me-surprendre {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bouton {
+  background-color: black;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 30px rgb(98, 98, 98);
+  cursor: pointer;
+  transition: 0.5s;
+  color: white;
+  font-size: 30px;
+}
+.bouton:hover {
+  padding: 10px 30px;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 4px 4px 30px rgb(100, 100, 101);
+  background-color: white;
+  color: black;
+}
